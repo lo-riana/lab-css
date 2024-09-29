@@ -1,0 +1,202 @@
+/* Q1: All the elements have margin and padding of 0 from the top, bottom, left, and right */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Q2: Style the <body> element has to be styled with a color for the text, a background image, the font and the margin 0 for all the 4 sides */
+
+body {
+    color: #0c0d23;
+    background-image: url(../assets/images/dark-wood1.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+
+/* Q3: Place the class “container” in the middle of the page (browser window) */
+
+.container {
+    width: 950px;
+    max-width: 1300px;
+    margin: 5px auto;
+    background-color: #f2eeda;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* Q4: Change line spacing */
+
+.content {
+    line-height: 1.4em;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+
+/* Q5: Style the header and the footer with the color of the text and the color of the background */
+
+header,
+footer {
+    background-color: #e09b48;
+    color: #f2eeda;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px;
+}
+
+
+/* Q7: Style the li of the nav to be displayed horizontally and transform the text all capitals */
+
+nav ul li {
+    display: inline;
+    margin: 40px;
+    text-transform: uppercase;
+}
+
+
+/* Q8: Style the a according to different actions */
+
+nav a:link {
+    color: #f2eeda;
+}
+
+nav a:visited {
+    color: #663103;
+}
+
+nav a:hover {
+    color: #135caa;
+}
+
+nav a:active {
+    color: #dff6ff;
+}
+
+ul,
+ol {
+    margin-left: 5%;
+}
+
+a {
+    color: #507d8e;
+    text-decoration: none;
+}
+
+
+/* Q10: Style the header elements with the color oh the text and all in capitals */
+
+h1,
+h2,
+h3 {
+    margin: 10px;
+    text-transform: uppercase;
+    color: #8e4729;
+}
+
+
+/* Q11: Put the image in the center of the body */
+
+.img-center {
+    display: block;
+    margin: 5px auto;
+    padding: 2px;
+}
+
+
+/* Q12: Put the video in the center of the body */
+
+video {
+    display: block;
+    margin: auto;
+    margin: 10px auto;
+}
+
+table {
+    width: 800px;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+
+/* Q14: the first padding value is applied to the top and bottom and the second to the left and right */
+
+td,
+th {
+    border: 1px solid #0c0d23;
+    padding: 2px 5px;
+}
+
+td {
+    background-color: #f3e0c0;
+}
+
+th,
+tfoot td {
+    background-color: #cd9a6e;
+    text-transform: uppercase;
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 80%;
+    text-align: center;
+    padding: 1px 0;
+}
+
+
+/* Q18: Center the map (iframe) */
+
+iframe {
+    display: block;
+    margin: 10px auto;
+}
+
+
+/* Q19: Place the form in the center */
+
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    background-color: #f3e0c0;
+    border: 2px solid #cd9a6e;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+/* Q20: Style the legend with the font style (italic), change the font, and round the border */
+
+legend {
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #cd9a6e;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+input[type="submit"] {
+    border: 2px solid #c4844c;
+    padding: 5px;
+    background-color: #cd9a6e;
+    color: #f2eeda;
+}
+
+input[type="submit"]:hover {
+    border: 2px solid #135caa;
+    background-color: #507d8e;
+    color: #f2eeda;
+    cursor: pointer;
+}
